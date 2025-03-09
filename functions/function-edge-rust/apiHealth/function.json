@@ -1,0 +1,17 @@
+{
+    "bindings": [
+        {
+            "authLevel": "Anonymous",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "apiHealth",
+            "route": "health",
+            "methods": ["get", "options"]
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        }
+    ]
+}

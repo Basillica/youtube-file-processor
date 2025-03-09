@@ -1,0 +1,11 @@
+{
+    "bindings": [
+        {
+            "authLevel": "Anonymous",
+            "type": "eventGridTrigger",
+            "name": "eventGridTrigger",
+            "direction": "in"
+        }
+    ],
+    "disabled": false
+}

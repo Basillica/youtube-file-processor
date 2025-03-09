@@ -1,0 +1,10 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "WEBSITE_SLOT_NAME": "Production",
+        "FUNCTIONS_EXTENSION_VERSION": "~4",
+        "ApplicationInsightsAgent_EXTENSION_VERSION": "~2",
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "custom"
+    }
+}

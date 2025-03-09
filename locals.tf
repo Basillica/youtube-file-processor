@@ -1,0 +1,50 @@
+locals {
+  region              = local.regions[var.location]
+  environment         = var.environment
+  resource_group_name = "${var.environment}-${var.prefix}"
+
+  regions = {
+    westus             = "West US"
+    westus2            = "West US 2"
+    westcentralus      = "West Central US"
+    southcentralus     = "South Central US"
+    northcentralus     = "North Central US"
+    eastus             = "East US"
+    eastus2            = "East US 2"
+    canadacentral      = "Canada Central"
+    canadaeast         = "Canada East"
+    brasilsoutch       = "Brasil South"
+    uksouth            = "UK South"
+    ukwest             = "UK West"
+    northeurope        = "North Europe"
+    westeurope         = "West Europe"
+    francecentral      = "France Central"
+    francesouth        = "France South"
+    germanynortheast   = "Germany Northeast"
+    germanycentral     = "Germany Central"
+    germanywestcentral = "Germany West Central"
+    switzerlandnorth   = "Switzerland North"
+    switzerlandwest    = "Switzerland West"
+    norwayeast         = "Norway East"
+    norwaywest         = "Norway West"
+    southafricawest    = "South Africa West"
+    southafricanorth   = "South Africa North"
+    westindia          = "West India"
+    centralindia       = "Central India"
+    southindia         = "South India"
+    southeastasia      = "Southeast Asia"
+    eastasia           = "East Asia"
+    chinanorth         = "China North"
+    chinaeast          = "China East"
+    koreacentral       = "Korea Central"
+    koreasouth         = "Korea South"
+    japaneast          = "Japan East"
+    japanwest          = "Japan West"
+    australiacentral   = "Australia Central"
+    australiacentral2  = "Australia Central 2"
+    australiaeast      = "Australia East"
+    australiasoutheast = "Australia Southeast"
+    uaecentral         = "UAE Central" # United Arab Emirates
+    uaenorth           = "UAE North"   # United Arab Emirates
+  }
+}
