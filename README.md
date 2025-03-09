@@ -32,8 +32,8 @@ This project showcases how to use Azure Functions, Azure Blob Storage, and Terra
 1.  **Clone the Repository:**
 
     ```bash
-    git clone repo-url
-    cd repo-url
+    git clone git@github.com:Basillica/youtube-file-processor.git
+    cd youtube-file-processor
     ```
 
 2.  **Configure Terraform:**
